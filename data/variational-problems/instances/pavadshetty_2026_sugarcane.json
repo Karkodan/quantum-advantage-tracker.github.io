@@ -1,0 +1,20 @@
+{
+  "instance_id": "pavadshetty_2026_sugarcane",
+  "name": "Pavadshetty Sugarcane Structural Audit (Extreme Noise)",
+  "hamiltonian_id": "agricps_qsar_sugarcane_133",
+  "short_description": "Structural dielectric inversion for sugarcane under 80% cloud cover (ENL 0.5).",
+  "method": {
+    "name": "Variational Quantum Inversion (VQI)",
+    "ansatz": "RealAmplitudes (reps=3)",
+    "feature_map": "ZZFeatureMap (reps=2)",
+    "optimizer": "COBYLA"
+  },
+  "hardware": "ibm_torino",
+  "qubits_active": 133,
+  "results": {
+    "quantum_residual_error": 0.8,
+    "classical_baseline_error": 2.4,
+    "proof_id": "ibm_torino:d68upphv6o8c73d77ar0",
+    "ground_truth_dielectric": 18.2
+  }
+}
