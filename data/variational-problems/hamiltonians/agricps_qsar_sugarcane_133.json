@@ -1,0 +1,6 @@
+{
+  "name": "AgriCPS-QSAR-Sugarcane-133",
+  "description": "133-variable QUBO Hamiltonian for structural dielectric inversion of sugarcane under extreme C-band SAR noise.",
+  "type": "QUBO/Ising",
+  "qubits": 133
+}
